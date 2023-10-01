@@ -18,7 +18,7 @@ on:
 
 jobs:
   metadata:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
     - name: Show metadata
       run: |
